@@ -1,1 +1,1 @@
-## wear via weight loss and volume loss method
+##  Wear via Weight Loss and Volume Loss Method
