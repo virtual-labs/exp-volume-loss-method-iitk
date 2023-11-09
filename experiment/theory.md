@@ -2,8 +2,6 @@
 Wear of the materials is expressed with reference to the material damage due to the continuous contact and relative motion of the surfaces. There are many methods of quantifying wear: the weight loss and volume loss methods being the common methods. These losses are dependent on other parameters like applied load, sliding speed, and time.<br> 
 The quantification of wear is usually depicted in a graph of wear characteristics (weight loss or volume loss) vs dependent parameters (for instance, applied load). It is important to take the observations of weight loss/ volume loss with the variation of the dependent parameter. It is usually assumed that other parameters of wear (apart from the dependent parameter) are constant. <br>
 According to the ASTM International (formerly, American Society for Testing and Materials) standard (G99-17), ¬the wear volume losses are determined by the following equations:<br>
-Pin (spherical end, with radius R) volume loss (m3) = 〖(π (wear scar diameter,mm))/(64 (sphere radius,mm))〗^4
-It is assumed that no significant wear loss is observed in disk. Similarly, 
-Disk volume loss (m3) = 〖(π (wear track radius,mm) (track width,mm))/(6 (sphere radius,mm))〗^3
+<Image src="images/image1-1.PNG">
 It is assumed that no significant wear loss is observed in the pin. <br>
 The volume loss is also determined by employing a profilometer. The wear surface is subjected to profilometry, which determines the depth profile of the wear surface. On comparing it with the initial surface, the degree of wear and the volume loss during the experiment can be determined. Similarly, the weight loss due to wear can be determined by measuring the weights before and after the experiment. As mentioned previously, wear parameters are crucial for these experiments.  
