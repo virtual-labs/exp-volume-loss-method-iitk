@@ -1,4 +1,4 @@
-<b> <font size="22">Wear Estimation: Weight loss and volume loss </font></b><br>
+### Wear Estimation: Weight loss and volume loss <br>
 
 Wear of the materials is expressed with reference to the material damage due to the continuous contact and relative motion of the surfaces. There are many methods of quantifying wear: the weight loss and volume loss methods being the common methods. These losses are dependent on other parameters like applied load, sliding speed, and time.<br> 
 The quantification of wear is usually depicted in a graph of wear characteristics (weight loss or volume loss) vs dependent parameters (for instance, applied load). It is important to take the observations of weight loss/ volume loss with the variation of the dependent parameter. It is usually assumed that other parameters of wear (apart from the dependent parameter) are constant. <br>
