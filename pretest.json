@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Wear estimation can be done by ",
+      "answers": {
+        "a": "Determining volume change after wear",
+        "b": "Determining composition changes after wear",
+        "c": "Monitoring temperature during wear",
+        "d": "Monitoring load during wear"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following parameters are NOT important to estimate wear?",
+      "answers": {
+        "a": "Load",
+        "b": "Sliding Velocity",
+        "c": "Lubricants",
+        "d": "Electrical conductivity"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is used for determining the volume loss due to wear?",
+      "answers": {
+        "a": "Profilometer",
+        "b": "Screw gauge",
+        "c": "Measuring tape",
+        "d": "Thermogravimetry"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
