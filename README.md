@@ -12,10 +12,10 @@
 :--|:--|
 <b> Institute | <b>  IIT Kanpur
 <b> Email id|    <b>  nchawake@iitk.ac.in, arunabhm@iitk.ac.in
-<b> Department |  Mechanical Engineering
+<b> Department |  Materials Science and Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Ayush Gupta  | Student | Mechanical Engineering |REC Banda| 2107340130014@recbanda.ac.in
+1 | Harsh Dwivedi  | . | Materials Science and Engineering |IIT Kanpur| harshd@iitk.ac.in
