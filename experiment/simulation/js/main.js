@@ -562,3 +562,9 @@ function openFormulaModal() {
 function closeFormulaModal() {
   document.getElementById("formulaModal").style.display = "none";
 }
+
+
+
+function refreshPage() {
+    location.reload();
+}
