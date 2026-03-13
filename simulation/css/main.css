@@ -1,0 +1,680 @@
+/* You CSS goes in here */
+*{
+  padding: 0%;
+  margin: 0%; 
+  box-sizing: border-box;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 25px;
+  right: 0;
+  background-color: #d5a45e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 35px;
+}
+#lists{
+  margin-left: 20px;
+  padding: 8px 8px 8px 32px;
+  color:white;
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff7f7;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #6b6969;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #d21b7a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+li{
+  margin:20px;
+}
+
+
+.m{
+  color: rgb(35, 33, 33);
+}
+      
+.button {
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+
+}
+
+.button1 {
+background-color: white; 
+color: black; 
+border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+.allbox{
+  border:4px solid rgb(25, 78, 134);
+  border-radius: 25px;
+  margin:40px;
+  height: 1600px;
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px 4px black ;
+}
+.container{
+  display: flex;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(252, 234, 153, 0.651); */
+  background-color:  bisque;
+  height: 1400px;
+  border-radius: 25px;
+  width: 50%;
+  margin: 2px;
+  margin-left: 0px;
+  border: 2px solid black;
+}
+
+.main-section2 {
+  display: flex;
+  flex-direction: column;
+  background-color:  bisque;
+  height: 1400px;
+  border-radius: 25px;
+  width: 100%;
+  margin: 2px;
+  margin-left: 0px;
+  margin-right:0px;
+  border: 2px solid black;
+}
+
+/* .main-section3 {
+  display: flex;
+  flex-direction: column;
+  background-color:bisque;
+  height: 260px;
+  border-radius: 25px;
+  width: 100%;
+  margin: 2px;
+  margin-left: 0px;
+  border: 2px solid black;
+} */
+
+.control-container{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+
+
+.moveable {
+width: 170px;
+height: 129px;
+/* background-color: blue; */
+position: absolute;
+transition: transform 1s ease;
+}
+
+
+.target {
+width: 257px;
+height: 129px;
+/* background-color: red; */
+position: absolute;
+/* left: 100px; /* Adjust the target position as needed */
+/* top: 50px; */ 
+}
+
+.moveable3 {
+width: 40px;
+height: 200px;
+/* background-color: blue; */
+position: absolute;
+transition: transform 1s ease;
+}
+
+
+.target3 {
+width: 124px;
+height: 512px;
+/* background-color: red; */
+position: absolute;
+/* left: 100px; /* Adjust the target position as needed */
+/* top: 50px; */ 
+}
+
+.moveable5{
+width: 124px;
+height: 512px;
+/* background-color: blue; */
+position: absolute;
+transition: transform 1s ease;
+}
+
+.target5 {
+width: 55px;
+height: 220px;
+/* background-color: red; */
+position: absolute;
+/* left: 100px; /* Adjust the target position as needed */
+/* top: 50px; */ 
+}
+
+.moveable6{
+width: 170px;
+height: 129px;
+/* background-color: blue; */
+position: absolute;
+transition: transform 1s ease;
+}
+
+.B[disabled]{
+background-color: gray;
+cursor: not-allowed;
+}
+
+.hidden{
+display: none;
+}
+
+
+
+#elementName {
+position: absolute;
+background-color: rgba(0, 0, 0, 0.7);
+color: white;
+padding: 20px;
+text-align: center;
+display: none;
+margin-inline:800px ;
+margin-top: 300px;
+}
+
+
+/* frame css */
+
+/* Add CSS styles for image container */
+#image-container {
+width: 200px; /* Adjust the width and height as needed */
+height: 100px;
+position: relative;
+}
+
+/* Add CSS styles for each SVG image */
+.svg-image {
+position: absolute;
+width: 100%;
+height: 100%;
+display: none;
+/* transform:translate(1000px, 100px); */
+}
+
+
+/* material image show */
+
+/* Hide the result container and material photos by default */
+#resultContainer {
+display: none;
+width: 200px;
+height: 200px;
+margin-top: 100px;
+align-self: center;
+}
+
+#material1Photo,
+#material2Photo {
+display: none;
+width: 650px;
+height: 300px;
+align-items: center;
+border: 5px solid rgba(0, 0, 0, 0.974); 
+}
+
+
+/* Help! video */
+/* .video-player {
+display: none;
+position: relative;
+}
+
+video {
+width: 800px;
+height: 800px;
+align-items: center;
+margin-left: 30px;
+} */
+
+/* .close-button {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 24px;
+cursor: pointer;
+color: #fff;
+background-color: #000;
+padding: 5px 10px;
+border-radius: 50%;
+margin-right: 400px;
+margin-top: 70px;
+} */
+
+#moveButton8 ,#moveButton4, #out {
+display: none; /* Initially hide the button */
+}
+
+/* .left{
+display: flex;
+  flex-direction: column;
+  height: 215px;
+  width: 150%;
+  margin: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.left-right{
+display: flex;
+}
+
+.img1{
+  height: 190px;
+  border-radius: 25px;
+  width: 600px;
+  margin-left: 10px;
+  border: 3px solid black;
+}
+
+@media only screen and (max-width: 1000px){
+
+
+.img1{
+  height: 190px;
+  border-radius: 25px;
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 3px solid black;
+}
+} */
+/* .img2{
+height: 190px;
+  border-radius: 25px;
+  width: 350px;
+  margin-top: 5px;
+  border: 3px solid black;
+} */
+
+
+/* .img1:hover{
+  box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+}   */
+
+/* .img2:hover{
+  box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+}   */
+
+@media only screen and (max-width: 2000px){
+  #material1Photo,
+#material2Photo {
+  display: none;
+  width: 580px;
+  height: 310px;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.974); 
+}
+}
+.note-important{
+ margin-left: auto;
+ margin: right 0; ;
+  top: 50px;              /* Distance from top */
+  right: 20px;            /* Distance from right */
+  width: 220px;           /* Width of the box */
+  background-color: hsl(0, 9%, 98%); /* White background */
+  padding: 15px;          /* Space inside the box */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px;     /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: #333;
+  z-index: 1000;          /* Ensure it stays above other elements */
+}
+
+/* 
+this is the changed code */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 10px 5px 0 0;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #3b7dd8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #2f68b0;
+}
+
+.panel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.panel-hidden {
+  display: none;
+}
+
+/* IMAGE CONTAINER */
+.panel-left {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.panel-left img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.panel-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 22px;
+  background-color: crimson;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.panel-close:hover {
+  background-color: darkred;
+}
+
+/* TEXT CONTAINER */
+.panel-right {
+ margin-right: auto;
+ margin: left 0; ;
+  top: 50px;              /* Distance from top */
+  right: 20px;            /* Distance from right */
+  width: 220px;           /* Width of the box */
+  background-color: hsl(0, 9%, 98%); /* White background */
+  padding: 15px;          /* Space inside the box */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px;     /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: #333;
+  z-index: 1000; 
+}
+
+.panel-right h2 {
+  margin-top: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive for small devices */
+@media (max-width: 768px) {
+  .panel-wrapper {
+    flex-direction: column;
+  }
+}
+
+#myBox {
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Center the entire result box */
+/* Center the entire result box */
+#resultContainer {
+  display: none;
+  margin: 20px auto;
+  width: 800px; /* fixed width */
+  height: 600px; /* fixed height */
+  text-align: center;
+  border: 5px solid rgba(0, 0, 0, 0.974);
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -50px;
+  box-sizing: border-box;
+}
+
+/* Image wrapper */
+#imageWrapper {
+  position: relative;
+}
+
+/* The image itself */
+.materialPhoto {
+  display: none;
+  width: 100%;
+  max-height: 350px; /* fixed height */
+  object-fit: contain;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+
+/* Label at top of image */
+#imageLabel {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Description below the image */
+#imageDescription {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+  height: 90px; /* fixed height */
+  overflow: auto; /* scroll if content overflows */
+  white-space: pre-line;
+}
+
+
+/* Nav buttons */
+.nav-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-buttons button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+h2 {
+  color: red;
+  font-size: 24px;
+}
+
+ul {
+  font-size: 17px;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.formula-box {
+  background: #f0f0f0;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* Popup Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+.modal-content {
+  background: white;
+  margin: 8% auto;
+  padding: 25px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+  position: relative;
+  color: #000;
+
+  /* ✅ Scroll settings */
+  max-height: 80vh;         /* Limit height to 80% of viewport */
+  overflow-y: auto;         /* Add vertical scrollbar if needed */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
+.close:hover {
+  color: black;
+}
+
+/* Button */
+.next-slide-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+

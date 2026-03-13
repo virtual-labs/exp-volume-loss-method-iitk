@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Sample preparation for weight loss experiment should involve:",
+      "answers": {
+        "a": "Measurement of thermal conductivity of the sample",
+        "b": "Measurement of electrical conductivity of the sample",
+        "c": "Measurement of weight and dimensions of the sample",
+        "d": "None of the options"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Post-experiment, which of the following steps is necessary?",
+      "answers": {
+        "a": "Analysis of wear surface",
+        "b": "Observation of weight and volume loss",
+        "c": "Observations of profilometer ",
+        "d": "All of the options"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Post-experiment, which of the following will be used for measurement of weight?",
+      "answers": {
+        "a": "Digital weighing balance",
+        "b": "Thermometer",
+        "c": "Optical microscope ",
+        "d": "None of the options"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
