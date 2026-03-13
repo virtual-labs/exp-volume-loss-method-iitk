@@ -97,7 +97,7 @@
 
 					<!-- <button class="button button1 B" id="reverseBtn">Reverse</button> -->
 					<button class="button button1 B hidden" id="cBtn" onclick="showcMessage()">Conclusion</button>
-
+						<button onclick="refreshPage()">Reset</button>
 
 					</div>
 					<div id="calculationContainer" style="display:none; margin-top:-10px;"></div>
@@ -106,11 +106,11 @@
 						<h7><u><b>Conclusions of the experiment:</b></u></h7>
 
 
-<li>Estimate mass loss </li>
+<li>Estimated mass loss </li>
 
-<li>Understand the concept of wear rate </li>
+<li>Understood the concept of wear rate </li>
 
-<li>Calculate wear rate</li>
+<li>Calculated wear rate</li>
 				</div>	
 				 <div class="panel-left" >
       <img id="panelImage" class="hidden-image" src="..\simulation\calculationImg\initial.png" alt="Display Image" style="width: 300px; height: 300px;margin-left: 50px; display: none;"/>
@@ -3329,11 +3329,14 @@
 </svg>
 
 
+<div class="ouput" >
+	<h1 id="out" style="margin-left: 8px;"></h1>
+</div>
 
 
-<h1 id="out" style="margin-left: 8px;">OUTPUT:</h1>
 <div id="resultContainer">
 					<div id="imageWrapper">
+						<div class="output" style="padding-left: 10px ;  font-weight: 700;">Output :</div>
 						<div id="imageLabel"><b>Speed: 50 RPM</b></div>
 						<img class="materialPhoto rpm25" src="../simulation/output/mainprofile.png" alt="Original" data-label="Speed: 50 RPM"
 	data-desc="Sample: 316 L stainless steel (Ra= 28 nm)&#10;Counter body: stainless steel&#10;Load: 20N&#10;Speed: 50 RPM&#10;Time: 30 min
