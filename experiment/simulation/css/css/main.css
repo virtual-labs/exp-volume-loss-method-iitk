@@ -257,11 +257,8 @@ display: none;
 display: none;
 width: 200px;
 height: 200px;
-margin-left: 30px;
-margin-right: 400px;
-margin-bottom:300px ;
 align-self: center;
-}
+padding-top: 50px;}
 
 #material1Photo,
 #material2Photo {
@@ -302,6 +299,14 @@ margin-top: 70px;
 
 #moveButton8 ,#moveButton4, #out {
 display: none; /* Initially hide the button */
+}
+.ouput{
+  position: absolute;
+  margin-left: 50px;
+}
+#out{
+  margin-bottom: 90px;
+  position: absolute;
 }
 
 /* .left{
